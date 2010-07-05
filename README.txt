@@ -15,7 +15,7 @@ How to install
 ==============
 It's assumed that py26 links to the Python 2.6 interpreter. Bootstrap buildout
 like so:
-$ py26 bootstrap.py
+$ py26 bootstrap.py --distribute
 
 Run buildout with the standard buildout configuration file:
 $ ./bin/buildout
